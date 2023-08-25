@@ -1,0 +1,124 @@
+*{
+    font-family : "Courier Name";
+    
+}
+
+/* h3{
+    color: purple;
+} */
+
+h1, h3{
+    color:#b92b27;
+}
+
+#login{
+    background-color: white;
+
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+
+}
+
+.upvote{
+    background-color: green;
+    color : white;
+}
+
+ #myid p{
+    color : green;
+}
+
+/* div[id = "myid"] p{
+    color : green;
+}  */
+
+/* descendent selector */
+
+
+/* p a{
+    color : purple;
+    background-color: yellow;
+} */
+
+
+.post a{
+    color : purple;
+    background-color: yellow;
+}
+
+
+nav ul li{
+    color :aqua;
+    
+}
+
+nav ul li a{
+    color :rgb(21, 0, 255);
+    background-color: bisque;
+    
+}
+
+
+
+/* sibling combinator */
+
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: cornflowerblue;
+    color: blue;
+}
+
+/* child combinator */
+div > input{
+    background-color: darksalmon;
+}
+
+
+/* attribute selector */
+
+input[type = "text"]{
+    color : red;
+}
+
+
+input[type = "password"]{
+    color : green;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* pseudo  class */
+
+/* hover class */
+button:hover{
+    background-color : black;
+    color : white;
+
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+/* active class */
+button:active{
+    background-color: pink;
+    color : black;
+}
+
+p:active{
+    font-weight: bold;
+    color : green;
+}
+
+
+/* checked class */
+input[type="radio"]

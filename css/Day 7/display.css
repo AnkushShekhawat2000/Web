@@ -1,0 +1,16 @@
+h2{
+    display : inline;
+    background-color: yellow;
+}
+
+span{
+    /* display : block; */
+    /* background-color: green; */
+    border : 2px solid  black;
+    height : 200px;
+    width : 100 px;
+    padding : 50px; 
+    /* // padding set only left right */
+
+    margin : 20px;
+}
